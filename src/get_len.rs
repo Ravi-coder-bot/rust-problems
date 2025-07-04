@@ -7,4 +7,4 @@ fn main(){
 fn get_len(s : String) -> usize{
     return s.chars().count(); 
 
-}
+}   
