@@ -7,6 +7,10 @@ impl Rect{
   fn area(&self) -> u32{
     self.width * self.length
   }
+
+  fn perimeter(&self) -> u32{
+    2 * (self.width + self.length)
+  }
 }
 
 fn main(){
@@ -15,4 +19,5 @@ fn main(){
     length : 50 ,
   };
   println!("The area of the rectangle is {} square pixels." , rect1.area());
+  println!("The perimeter of the rectangle is {} pixels." , rect1.perimeter());
 }
